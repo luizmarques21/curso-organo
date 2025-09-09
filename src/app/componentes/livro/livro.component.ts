@@ -1,9 +1,12 @@
 import {Component, input} from '@angular/core';
 import {Livro} from './livro';
+import {NgClass} from '@angular/common';
 
 @Component({
   selector: 'app-livro',
-  imports: [],
+  imports: [
+    NgClass
+  ],
   templateUrl: './livro.component.html',
   styleUrl: './livro.component.css'
 })
